@@ -1,0 +1,107 @@
+/* REGRAS GERAIS */
+* { color: #444; padding: 0; margin: 0; font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.5em; }
+a { text-decoration: none; }
+img { border: none; }
+
+/* INPUTS */
+input { padding: 10px 5px; border-radius: 3px; border: 1px solid #ccc; color: #888; }
+.btn { border: 2px solid #3fa159; background: #3fa159; color: #fff; cursor: pointer; padding: 10px 45px; text-transform: uppercase; font-weight: bold; transition: .2s all ease-in-out; }
+.btn:hover { background: #1f8239; }
+
+.cabecalho, .topo, .corpo, .rodape, rodape_sub { width: 100%; position: relative; }
+.conteudo { width: 980px; margin: 0 auto; }
+.clear { clear: both; }
+.detalhe { width: 45px; height: 2px; background: #3fa159; text-align: center; }
+
+b { font-weight: bold; }
+h1 { font-size: 30px; font-weight: bold; text-transform: uppercase; text-align: center; }
+h3 { font-size: 18px; font-weight: bold; text-transform: uppercase;  }
+p { font-size: 14px; text-align: justify; line-height: 1.5em; text-indent: 30px; }
+
+/* TOPO */
+.topo { background: #f0f0f0; border-bottom: 1px solid #ccc; height: 36px; font-size: 13px; }
+.topo .conteudo .esq { float: left; width: 300px; margin-top: 8px; }
+.topo .conteudo .dir { float: right; width: 160px; margin-top: 8px; }
+.topo .conteudo .dir span { padding: 8px; font-weight: 500; }
+.topo .conteudo .dir span:hover { background: #84c226; color: #fff; }
+
+/* CABECALHO */
+.cabecalho { background-image: linear-gradient(to bottom, #f0f0f0, #fff); height: 190px; }
+.cabecalho .conteudo .logo-info { float: left; width: 980px; }
+.cabecalho .conteudo .menu { float: left; width: 960px; margin: 0 auto; margin-top: 20px; margin-bottom: 20px; padding: 12px 9px; border-radius: 5px; border-bottom: 4px solid #07802d; background-image: linear-gradient(to bottom, #84c226, #3fa159); }
+.cabecalho .conteudo .menu ul { list-style: none; }
+.cabecalho .conteudo .menu ul li { padding: 0 12px; display: inline; }
+.cabecalho .conteudo .menu ul li a { color: #fff; text-transform: uppercase; font-weight: bold; font-size: 14px; -moz-transition: .3s all ease-in-out; -webkit-transition: .3s all ease-in-out; -o-transition: .3s all ease-in-out; }
+.cabecalho .conteudo .menu ul li a:hover { text-decoration: underline; color: #f3eb12; }
+
+/* CONTEUDO HOME */
+.slides { width: 100%; box-shadow: 0 8px 6px -6px #919191; margin-bottom: 60px; }
+.corpo .conteudo .evento-home { float: left; width: 450px; padding: 10px 0; margin-right: 40px; }
+.corpo .conteudo .evento-home .btn-evento { background: #fff; padding: 10px 20px; font-weight: bold; border: 2px solid #1f3682; color: #1f3682; text-transform: uppercase; border-radius: 2px; transiton: .2s all ease-in-out; }
+.corpo .conteudo .evento-home .btn-evento:hover { border: 2px solid #3fa159; background: #3fa159; color: #fff; cursor: pointer; }
+.corpo .conteudo .trabalhos-home { float: left; width: 450px; padding: 10px 0; margin-left: 40px; }
+.corpo .conteudo .trabalhos-home .btn-trabalhos { background: #fff; padding: 10px 20px; font-weight: bold; border: 2px solid #1f3682; color: #1f3682; text-transform: uppercase; border-radius: 2px; transiton: .2s all ease-in-out; }
+.corpo .conteudo .trabalhos-home .btn-trabalhos:hover { border: 2px solid #3fa159; background: #3fa159; color: #fff; cursor: pointer; }
+.corpo .conteudo .programacao-home { float: left; width: 980px; padding: 10px 0; margin-top: 50px; margin-bottom: 50px; }
+.corpo .conteudo .programacao-home img { border-radius: 2px; }
+
+/* INFORMAÇÕES */
+.corpo .conteudo .informacoes { float: left; width: 100%; padding: 30px 0; }
+.corpo .conteudo .informacoes h1 { text-align: left; }
+
+/* COMISSÃO */
+.corpo .conteudo .comissao { float: left; width: 100%; padding: 30px 0; }
+.corpo .conteudo .comissao h1 { text-align: left; }
+
+/* DOWNLOADS */
+.corpo .conteudo .downloads { float: left; width: 100%; padding: 30px 0; }
+.corpo .conteudo .downloads h1 { text-align: left; }
+
+/* SUBMISSÃO */
+.corpo .conteudo .submissao { float: left; width: 100%; padding: 30px 0; }
+.corpo .conteudo .submissao h1 { text-align: left; }
+
+/* INSCRIÇÕES */
+.corpo .conteudo .inscricoes { float: left; width: 100%; padding: 30px 0; }
+.corpo .conteudo .inscricoes h1 { text-align: left; }
+
+/* PROGRAMAÇÃO */
+.corpo .conteudo .programacao { float: left; width: 100%; padding: 30px 0; }
+.corpo .conteudo .programacao h1 { text-align: left; }
+.corpo .conteudo .programacao .tabela { padding: 5px 10px; border: 1px solid #ccc; border-radius: 3px; }
+.corpo .conteudo .programacao .tabela .td_titulo { font-weight: bold; text-transform: uppercase; }
+
+/* RODAPÉ */
+.rodape { background-image: linear-gradient(to bottom, #e6e6e6, #f4f4f4); height: 250px; border-top: 2px solid #ccc; }
+.rodape .conteudo { font-size: 13px; }
+.rodape .conteudo .logo { float: left; width: 250px; }
+.rodape .conteudo .logo img { width: 150px; margin-top: 40px; }
+.rodape .conteudo .info { float: left; width: 450px; margin-top: 30px; }
+.rodape .conteudo .realizacao { float: left; width: 200px; margin-top: 30px; }
+.rodape .conteudo .realizacao a { color: #3fa159; }
+.rodape .conteudo .realizacao a:hover { color: #333; }
+.rodape_sub { height: 40px; background: #3fa159; }
+.rodape_sub .conteudo .esquerda { float: left; margin-top: 12px; }
+.rodape_sub .conteudo .esquerda p { color: #fff; font-size: 13px; line-height: 1.5em; }
+.rodape_sub .conteudo .direita { float: right; margin-top: 12px; }
+.rodape_sub .conteudo .direita p { color: #fff; font-size: 13px; line-height: 1.5em; }
+.rodape_sub .conteudo .direita p a { color: #fff; transition: .2s all ease-in-out; font-size: 13px; }
+.rodape_sub .conteudo .direita p a:hover { color: #f6e810; }
+
+/* LOGIN */
+.corpo .conteudo .login { float: left; width: 100%; padding: 30px 0; }
+.corpo .conteudo .login h1 { text-align: left; }
+.corpo .conteudo .login .form_login { float: left; width: 400px; margin-right: 100px; padding: 20px; border-radius: 3px; border: 1px solid #ccc; }
+.corpo .conteudo .login .form_login .email, .senha { width: 390px; }
+.corpo .conteudo .login .info_login { float: left; width: 400px; }
+.corpo .conteudo .login .info_login a { font-size: 14px; color: #3fa159; }
+.corpo .conteudo .login .info_login a:hover { color: #333; }
+
+/* INSCRIÇÕES */
+.corpo .conteudo .inscricoes { float: left; width: 100%; padding: 30px 0; }
+.corpo .conteudo .inscricoes h1 { text-align: left; }
+.corpo .conteudo .inscricoes .form_inscricoes { float: left; width: 400px; margin-right: 100px; padding: 20px; border-radius: 3px; border: 1px solid #ccc; }
+.corpo .conteudo .inscricoes .form_inscricoes .nome, .email, .ra, .senha, .r_senha, .campus  { width: 390px; }
+.corpo .conteudo .inscricoes .info_inscricoes { float: left; width: 400px; }
+.corpo .conteudo .inscricoes .info_inscricoes a { font-size: 14px; color: #3fa159; }
+.corpo .conteudo .inscricoes .info_inscricoes a:hover { color: #333; }
